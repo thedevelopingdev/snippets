@@ -12,7 +12,7 @@ volumes:
 services:
   pg:
     image: postgres:13.0
-    env:
+    environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: data

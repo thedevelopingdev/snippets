@@ -5,8 +5,9 @@ server:
 positions:
   filename: /tmp/positions.yaml
 
+
 clients:
-	# the Loki service that receives logs captured by Promtail
+  # the Loki service that receives logs captured by Promtail
   - url: http://127.0.0.1:3100/loki/api/v1/push
 
 scrape_configs:

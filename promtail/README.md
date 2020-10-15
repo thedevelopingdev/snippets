@@ -1,5 +1,8 @@
 # Promtail
 
+## File locations
+- `/etc/systemd/system/promtail.service`
+
 ## Steps
 1. Add `promtail` user.
 

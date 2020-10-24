@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+# Source: https://packaging.python.org/tutorials/packaging-projects/
 
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as f:
     long_desc = f.read()
-
 
 setup(
     name="package_name",
